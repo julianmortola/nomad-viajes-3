@@ -1,0 +1,163 @@
+/* Reset general del Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+.pagina {
+    background-color: #F7F3EC;
+    color: #24343A;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+.contenido {
+    padding: 30px;
+}
+
+/* Encabezado y navegación con Flexbox */
+.encabezado {
+    background-color: #1F4D4F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.marca {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.enlace-menu {
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Secciones y Box Model */
+.seccion {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.presentacion {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bloque-texto {
+    padding: 20px;
+}
+
+.titulo-principal {
+    color: #1F4D4F;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.titulo-seccion {
+    color: #D9825B;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.titulo-tarjeta {
+    color: #1F4D4F;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.texto {
+    color: #24343A;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Tarjetas con Flexbox */
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.tarjeta {
+    background-color: #F0E7DC;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Imagen */
+.figura {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen-principal {
+    width: 450px;
+}
+
+.epigrafe {
+    color: #5A666A;
+    font-size: 0.9rem;
+}
+
+/* Formulario */
+.formulario {
+    background-color: #F0E7DC;
+    padding: 20px;
+}
+
+.etiqueta {
+    color: #1F4D4F;
+    font-weight: 600;
+}
+
+.campo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boton {
+    background-color: #D9825B;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Pie de página */
+.pie {
+    background-color: #24343A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-pie {
+    color: #FFFFFF;
+}
+
+.enlace-pie {
+    color: #F2C9A5;
+    text-decoration: none;
+}
